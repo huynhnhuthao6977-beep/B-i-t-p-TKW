@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuất Thứ Trong Tuần</title>
+</head>
+<body>
+
+    <form>
+        <table border="1">
+            <tr>
+                <td>Ngày <input type="number" id="ngay" value="12" min="1" max="31"></td>
+                <td>Tháng Select: <input type="number" id="thang" value="1" min="1" max="12"></td>
+                <td>năm <input type="number" id="nam" value="2015"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <button type="button" onclick="xuatThu()">Xuất thứ</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center" id="ketQua">
+                    <!-- Kết quả sẽ hiển thị ở đây -->
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>
