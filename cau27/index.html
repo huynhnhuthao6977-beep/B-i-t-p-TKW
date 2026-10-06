@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xóa Dòng Bảng</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Tổng</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dòng dữ liệu thứ 1 -->
+            <tr>
+                <td><input type="number" value="2"></td>
+                <td><input type="number" value="1000000"></td>
+                <td><input type="number" value="2000000"></td>
+                <td align="center">
+                    <!-- Từ khóa 'this' đại diện cho chính nút bấm này -->
+                    <button type="button" onclick="xoaDong(this)">Xóa</button>
+                </td>
+            </tr>
+            <!-- Dòng dữ liệu thứ 2 -->
+            <tr>
+                <td><input type="number" value="1"></td>
+                <td><input type="number" value="500000"></td>
+                <td><input type="number" value="500000"></td>
+                <td align="center">
+                    <button type="button" onclick="xoaDong(this)">Xóa</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

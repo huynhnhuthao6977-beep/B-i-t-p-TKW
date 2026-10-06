@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Can Chi</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <th colspan="3">TÍNH CAN CHI CỦA NGÀY ÂM LỊCH</th>
+        </tr>
+        <tr>
+            <td>Năm dương lịch</td>
+            <td></td>
+            <td>Can chi năm âm lịch</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="namDuongLich" value="2015">
+            </td>
+            <td align="center">
+                <button type="button" onclick="tinhCanChi()">---></button>
+            </td>
+            <td>
+                <!-- Thuộc tính readonly giúp ô này chỉ dùng để hiển thị kết quả -->
+                <input type="text" id="namAmLich" readonly>
+            </td>
+        </tr>
+    </table>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
